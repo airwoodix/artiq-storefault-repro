@@ -1,5 +1,5 @@
 {
-  inputs.artiq.url = "github:m-labs/artiq?rev=9bbf7eb48539082ee57e3f9b6faef7b0246a042b";
+  inputs.artiq.url = "github:m-labs/artiq";
   inputs.nixpkgs.follows = "artiq/nixpkgs";
 
   outputs = { self, nixpkgs, artiq }:

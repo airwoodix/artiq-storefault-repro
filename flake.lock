@@ -10,17 +10,16 @@
         "src-sipyco": "src-sipyco"
       },
       "locked": {
-        "lastModified": 1638527710,
-        "narHash": "sha256-/xAUlImdQbtuz9s/Y7iDrPCfqA/qFWi0ROi64nLTv08=",
+        "lastModified": 1641972217,
+        "narHash": "sha256-H/wGp1HqzYKT3XUTboRJAgwWivCN/kphLOp+uKWrQZE=",
         "owner": "m-labs",
         "repo": "artiq",
-        "rev": "9bbf7eb48539082ee57e3f9b6faef7b0246a042b",
+        "rev": "3f812c4c2c1c322b28a68b3e985006631db872cd",
         "type": "github"
       },
       "original": {
         "owner": "m-labs",
         "repo": "artiq",
-        "rev": "9bbf7eb48539082ee57e3f9b6faef7b0246a042b",
         "type": "github"
       }
     },
@@ -84,11 +83,11 @@
     "src-misoc": {
       "flake": false,
       "locked": {
-        "lastModified": 1636527305,
-        "narHash": "sha256-/2XTejqj0Bo81HaTrlTSWwInnWwsuqnq+CURXbpIrkA=",
+        "lastModified": 1641889368,
+        "narHash": "sha256-0Ai25lry9ju1HxFmfMRNKG8mamBqvw+kvDfpuK8Dtjo=",
         "ref": "master",
-        "rev": "f5203e406520874e15ab5d070058ef642fc57fd9",
-        "revCount": 2417,
+        "rev": "7242dc5a41732135425acc4871487461dfae6c66",
+        "revCount": 2419,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/m-labs/misoc.git"
