@@ -17,12 +17,16 @@ class TTLStates(EnvExperiment):
         return msgpack.unpackb(self.remote.root.get_states())
 
     @kernel
+    def loop(self):
+        states = self.get_states()
+        self.playback(states)
+
+    @kernel
     def run(self):
         self.core.reset()
 
         while True:
-            states = self.get_states()
-            self.playback(states)
+            self.loop()
 
     @kernel
     def playback(self, states: TList(TInt32)):
